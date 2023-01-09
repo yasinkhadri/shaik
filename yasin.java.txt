@@ -1,0 +1,56 @@
+
+public class Main
+{
+    public static void main (String[] args)
+
+{
+
+        System.out.println("\n The calculated Speed : "+speed(45.9, 2.0 )); 
+
+        System.out.println("\n The calculated Distance : "+distance(62.9, 2.5)); 
+
+        System.out.println("\n The calculated Time : "+time(48.0, 4.5));
+
+    }
+
+
+    static float speed( float distance,  float time)
+
+    {
+
+        System.out.print("\n Distance : " + distance) ;
+
+        System.out.print("\n Time : " + time) ;
+
+                 
+        return distance/time;
+    }
+
+     
+
+    static  float distance( float speed,  float time)
+
+    {
+
+        System.out.print("\n Time : " + time) ;
+
+        System.out.print("\n Speed : " + speed) ;
+
+        return speed*time;
+
+    }
+
+
+    static  float time( float distance,  float speed)
+
+    {
+
+        System.out.print("\n Distance : "+ distance) ;
+
+        System.out.print("\n Speed : " + speed) ;
+
+        return distance / speed; 
+
+    }
+
+}
